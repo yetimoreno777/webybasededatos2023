@@ -1,0 +1,36 @@
+.tabla{
+    margin-top: -18%;
+    width: 90%;
+    height: 90%;
+    transform: scale(0.5);
+    animation: 4s pro infinite ease-in-out;
+}
+.tabla, td{
+    border: 1px solid black;
+    background-color: white;
+}
+.cuadro{
+    width: 200px;
+}
+.timi{
+    width: 100%;
+}
+.timi3{
+    border: 1px solid white;
+}
+.timi4{
+    width: 50%;
+    margin-left: 25%;
+}
+.btn{
+    width: 10%;
+    height: 100px;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+@keyframes pro{
+    0%{border: 10px solid rgb(40, 40, 40);;}
+    50%{border: 10px solid white;}
+    100%{border: 10px solid rgb(40, 40, 40);;}
+}
