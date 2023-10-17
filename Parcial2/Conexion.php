@@ -11,8 +11,5 @@
         die("Fallo la conexion" . $conexion->connect_error);
     }
 
-
-
-
-
+    
 ?>

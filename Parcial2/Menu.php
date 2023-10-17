@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Home.php">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -41,10 +41,10 @@
                         Mas opciones
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Home.php">Inicio</a></li>
                         <li><a class="dropdown-item" href="ConsultarAlumnos.php">Consultar alumnos</a></li>
-                        <li><a class="dropdown-item" href="#">Registrar alumno</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">madafaka</a></li>
+                        <li><a class="dropdown-item" href="#">Registrar alumnos</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
