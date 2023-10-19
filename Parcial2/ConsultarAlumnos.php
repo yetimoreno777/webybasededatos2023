@@ -30,6 +30,23 @@
                             <td>Sexo</td>
                         </tr>
                     </thead>
+                    <tbody>
+                        <?php while($registro = $datos->fetch_assoc()){?>
+                            <tr>
+                                <td> <?php echo $registro["id"]; ?> </td>
+                                <td> <?php echo $registro["nombre"]; ?> </td>
+                                <td> <?php echo $registro["numero_control"]; ?> </td>
+                                <td> <?php echo $registro["semestre"]; ?> </td>
+                                <td> <?php echo $registro["edad"]; ?> </td>
+                                <td> <?php echo $registro["turno"]; ?> </td>
+                                <td> <?php echo $registro["sexo"]; ?> </td>
+                                <td>
+                                    <a href="" class="btn btn-xs btn-primary">Editar</a>
+                                    <a href="" class="btn btn-xs btn-danger">Eliminar</a>
+                                </td>
+                            </tr>
+                        <?php } ?>    
+                    </tbody>
                 </table>
                 <?php} else {?>
                     <h2>No existen datos de alumnos en la base de datos</h2>
@@ -39,7 +56,7 @@
     </div>
 
     <footer class="text-center">
-        <span>CETiS 107 web app</span>
+        <span>CETiS 107  &copy; web app</span>
     </footer>
 </body>
 </html>

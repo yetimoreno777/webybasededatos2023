@@ -1,10 +1,11 @@
 <?php
     $server="localhost";
     $user="root";
-    $password=""; 
+    $password="001"; 
+    $baseDatos="cetis107"
 
     //conexion
-    $conexion = new mysqli($server, $user, $password);
+    $conexion = new mysqli($server, $user, $password, $baseDatos);
 
     //revisar conexion
     if($conexion->connect_error){

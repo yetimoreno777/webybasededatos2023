@@ -21,7 +21,7 @@
 </head>
 <center>
 <body>
-    <?php include 'conexion.php';?>
+    <?php include 'Conexion.php';?>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">CETiS 107</a>
