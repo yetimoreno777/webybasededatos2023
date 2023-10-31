@@ -38,7 +38,7 @@
                                     <td><?php $registro["sexo"];?></td>
                                     <td>
                                         <a href="" class="btn btn-xs btn-primary">Editar</a>
-                                        <a href="" class="btn btn-xs btn-danger">Eliminar</a>
+                                        <a href="EliminarAlumno.php" class="btn btn-xs btn-danger">Eliminar</a>
                                     </td>
                                 </tr>
                             <?php } ?>
