@@ -21,7 +21,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Alumnos</title>
+    <title>Eliminar Alumnos</title>
     <link rel="stylehest" href="css/bootstrap.css">
     <script src="code.jquery.com_jquery-3.7.1.js"></script>
 </head>
