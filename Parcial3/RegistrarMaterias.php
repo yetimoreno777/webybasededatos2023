@@ -21,8 +21,9 @@
                     <div class="class-group">
                         <label for="semestre">Semestre:</label>
                         <input type="number" name="semestre" class="form-control" placeholder="Teclea el semestre" id="">
-                    </div>
+                    </div> <br>
                     <div class="form-group">
+                        <label for="especialidad">Especialidad:</label>
                         <select name="especialidad" class="form-control" id="">
                             <option value="">Selecciona una especialidad</option>
                             <option value="PROGRAMACION">Programacion</option>
@@ -33,7 +34,7 @@
                         </select>
                     </div>
                     <div>
-                        <input type="text" class="btn btn-primary" value="Registrar" name="" id="">
+                        <input type="button" class="btn btn-primary" value="Registrar" name="" id="">
                         <a href="ConsultarMaterias.php" class="btn btn-danger">Cancelar</a>
                     </div>
                 </form>
