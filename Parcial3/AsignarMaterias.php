@@ -27,16 +27,25 @@
                         <option value="">Selecciona un alumno:</option>
                         <?php
                             if($datos_alumnos->num_row > 0) {
-                                while($registro = $datos_alumnos->fetch_assoc()){}
-                                
-                                <option value=""></option>
-
-                            }
-                        ?>
-                    </select>
+                                while($registro = $datos_alumnos->fetch_assoc()){ ?>
+                                <option value="<?php echo $registro["id"];?>"><?php echo $registro["nombre"]; ?></option>
+                                <?php } ?>
+                            <?php } ?>    
+                    </select> <br>
+                    <h3>Seleccione las materias:</h3> <hr>
+                    <?php if($datos_materias->num_rows > 0){
+                        while($registro = $datos_materias->fetch_assoc()){?>
+                            <p> <input type="checkbox" name="materias[]" > <?php echo $registro["nombre"]; ?> </p>
+                        <?php } 
+                    } ?>
+                    <div>
+                        <input type="submit" value="Asignar" class="btn btn-primary">
+                        <a href="" class="btn btn-danger">Cancelar</a>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

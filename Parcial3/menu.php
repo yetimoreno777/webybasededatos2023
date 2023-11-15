@@ -20,6 +20,7 @@
             <li><a class="dropdown-item" href="RegistrarAlumno.php">Registar alumno</a></li>
             <li><a class="dropdown-item" href="consultarMaterias.php">Consultar materias</a></li>
             <li><a class="dropdown-item" href="RegistrarMaterias.php">Registar materias</a></li>
+            <li><a class="dropdown-item" href="AsignarMaterias.php">Asignar materias</a></li>
           </ul>
         </li>
       </ul>
